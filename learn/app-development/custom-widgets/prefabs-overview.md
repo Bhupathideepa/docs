@@ -96,7 +96,7 @@ Once embedded into the page, all the functionality of the prefab becomes a part 
 
 ![](/learn/assets/artifact-sharing/artifacts-access.png)
 
-:::Note:
+:::note
 
 1. All Published Prefabs will be available under Prefabs, without needing to Import. Just click the refresh icon if you don't find the Prefab.
 2. To incorporate any changes made to an already imported prefab, it needs to be re-imported to an updated version of the project. Use the refresh icon for the same.
@@ -108,7 +108,7 @@ Once embedded into the page, all the functionality of the prefab becomes a part 
 
 When a prefab is imported into a project, it places the prefab content into the folder: `src/main/webapp/WEB-INF/prefabs/{prefab-name}.` For each Prefab imported a separate folder is created, with the same name as that of the Prefab.
 
-:::Note:
+:::note
 Deleting this folder will delete the Prefab from the project.
 :::
 
