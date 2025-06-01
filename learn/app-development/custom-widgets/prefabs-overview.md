@@ -4,7 +4,7 @@ id: "prefabs-overview"
 sidebar_label: "Prefabs Overview"
 ---
 ---
-**Prefab** is a reusable, distributable component of an application, which can be tested independently. It can interact with APIs and data on the web. Prefabs can be embedded and integrated into your applications with ease.
+**Prefab** is a reusable, distributable component of an application, and can be tested independently. It can interact with APIs and data on the web. Prefabs can be embedded and integrated into your applications with ease.
 
 [![](/learn/assets/prefab2.png)](/learn/assets/prefab2.png)
 
