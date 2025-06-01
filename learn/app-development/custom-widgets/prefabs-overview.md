@@ -4,13 +4,13 @@ id: "prefabs-overview"
 sidebar_label: "Prefabs Overview"
 ---
 ---
-**Prefab** is a reusable, distributable component of an application, which can be tested independently. It can interact with APIs and data on the web. Prefabs can be embedded and integrated into your applications with ease.
+**Prefab** is a reusable, distributable component of an application,can be tested independently. It can interact with APIs and data on the web. Prefabs can be embedded and integrated into your applications with ease.
 
 [![](/learn/assets/prefab2.png)](/learn/assets/prefab2.png)
 
-In this document the following topics related to Prefabs are covered:
+ Topics related:
 
-- the [What](#prefabs-example), [Why](#prefab-benefits) and [How](#prefab-anatomy) of a Prefab,
+- The [What](#prefabs-example), [Why](#prefab-benefits) and [How](#prefab-anatomy) of a Prefab,
 - [various features](#prefab-features) of a Prefab,
 - using Prefabs in your application by [publishing](#publishing-prefabs) and [importing](#importing-prefabs), and
 - [structure](#files-prefabs) of the Prefab code.
@@ -29,11 +29,11 @@ This Prefab can be made to tightly integrate with specific APIs as shown below. 
 
 Prefabs make API integration a lot easier. You can
 
-1. integrate with REST API by importing API as a Service
-2. secure the transaction via the built-in OAuth 2.0 handshake without the need to write additional code
-3. manipulate the JSON responses by binding them to UI elements or widgets
-4. configure input parameters through Prefab settings
-5. expose data output and events for client-side integration
+1. Integrate with REST API by importing API as a Service
+2. Secure the transaction via the built-in OAuth 2.0 handshake without the need to write additional code
+3. Manipulate the JSON responses by binding them to UI elements or widgets
+4. Configure input parameters through Prefab settings
+5. Expose data output and events for client-side integration
 
 [![](/learn/assets/prefab_api.png)](/learn/assets/prefab_api.png)
 
@@ -53,21 +53,21 @@ Prefabs leverage all the features available to a WaveMaker app, completely encap
 
 [![](/learn/assets/prefab_anatomy.png)](/learn/assets/prefab_anatomy.png)
 
-## Prefab Types
+## Prefab Types:
 
-Prefabs can be applied in many situations, Broadly, they fall into following categories:
+Prefabs can be applied in many situations,as:
 
-1. **as widget extensions**: they can be built on top of 3rd party JS libraries and extend these libraries' functionality; [![prefab_widget](/learn/assets/prefab_widget.png)](/learn/assets/prefab_widget.png)
-2. **as API integrated components**: WaveMaker UI components can be made to interact with the Prefab APIs to customize the Prefab behavior; [![prefab_apicomp](/learn/assets/prefab_apicomp.png)](/learn/assets/prefab_apicomp.png)
-3. **as Backend service extensions**: reusable backend services can be built by leveraging 3rd party Java libraries. [![prefab_backent](/learn/assets/prefab_backent.png)](/learn/assets/prefab_backent.png)
+1. **Widget extensions**: they can be built on top of 3rd party JS libraries and extend these libraries' functionality; [![prefab_widget](/learn/assets/prefab_widget.png)](/learn/assets/prefab_widget.png)
+2. **API integrated components**: WaveMaker UI components can be made to interact with the Prefab APIs to customize the Prefab behavior; [![prefab_apicomp](/learn/assets/prefab_apicomp.png)](/learn/assets/prefab_apicomp.png)
+3. **Backend service extensions**: reusable backend services can be built by leveraging 3rd party Java libraries. [![prefab_backent](/learn/assets/prefab_backent.png)](/learn/assets/prefab_backent.png)
 
-## Prefab Features
+## Prefab Features:
 
-Prefabs, like any widget, have the following features that can be set:
+Prefabs features that can be set:
 
 1. **Properties**: If a Prefab exposes properties, you can set them using the Properties Panel. Depending upon the complexity of the Prefab, you may need to integrate the Prefab into your page using code.
-2. **Events**: There are two default events which can be handled - on Load and on Destroy. These events get triggered when the Prefab is loaded or removed, respectively, from the page containing the Prefab. Any other events that have been defined by the Prefab developer will also be listed and these can be handled by the user.
-3. **Methods**: Any methods that have been written and exposed by the Prefab developer will be available for invocation by binding them to an event of any widget.
+2. **Events**: There are two default events which can be handled - on Load or - on Destroy. These events get triggered when the Prefab is loaded or removed, respectively, from the page containing the Prefab. Any other events that have been defined by the Prefab developer will also be listed and these can be handled by the user.
+4. **Methods**: Any methods that have been written and exposed by the Prefab developer will be available for invocation by binding them to an event of any widget.
 
 [Know more about Prefab settings](/learn/app-development/custom-widgets/creating-prefabs/#prefab-settings).
 
