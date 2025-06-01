@@ -10,7 +10,7 @@ sidebar_label: "Prefabs Overview"
 
 In this document the following topics related to Prefabs are covered:
 
-- The [What](#prefabs-example) , [Why],(#prefab-benefits) and [How](#prefab-anatomy) of a Prefab,
+- The [What](#prefabs-example) , [Why](#prefab-benefits) , and [How](#prefab-anatomy) of a Prefab,
 - [Various features](#prefab-features) of a Prefab,
 - Using Prefabs in your application by [publishing](#publishing-prefabs) and [importing](#importing-prefabs), and
 - The [Structure](#files-prefabs) of the Prefab code.
@@ -90,12 +90,13 @@ Once you have created a Prefab, it needs to be published in order for the apps t
     ![upload zip file](/learn/assets/prefab-zip-import.png)
 
 3. Once imported, you can find the prefab in the **Prefabs** section of the **Pages Resources**. These prefabs are grouped into categories like Basic, Media, Location, and more, as defined in the properties of the Prefab at the time of creation.
-4. You can use prefabs in any of your projects by simply dragging and dropping them from the  **Prefabs** section to your page like any other widget. Once, embedded into the page, all the functionality of the prefab becomes a part of that page.
+4. You can use prefabs in any of your projects by simply dragging and dropping them from the  **Prefabs** section to your page like any other widget.
+Once embedded into the page, all the functionality of the prefab becomes a part of that page.
 5. You can find the list of available Prefabs from the [Studio Artefacts](/learn/assets/artefacts.png) page.
 
 ![](/learn/assets/artifact-sharing/artifacts-access.png)
 
-:::Note :
+:::Note:
 
 1. All Published Prefabs will be available under Prefabs, without needing to Import. Just click the refresh icon if you don't find the Prefab.
 2. To incorporate any changes made to an already imported prefab, it needs to be re-imported to an updated version of the project. Use the refresh icon for the same.
@@ -107,7 +108,7 @@ Once you have created a Prefab, it needs to be published in order for the apps t
 
 When a prefab is imported into a project, it places the prefab content into the folder: `src/main/webapp/WEB-INF/prefabs/{prefab-name}.` For each Prefab imported a separate folder is created, with the same name as that of the Prefab.
 
-:::Note :
+:::Note:
 Deleting this folder will delete the Prefab from the project.
 :::
 
@@ -115,9 +116,9 @@ Deleting this folder will delete the Prefab from the project.
 
 For each Prefab you will find 3 subfolders:
 
-- `config` - consisting of the configuration files
+- `config` - Consisting of the configuration files
 - `lib` - any library files like jar files uploaded while Prefab creation
-- `webapp` - contains the pages comprising the Prefab and any resources imported
+- `webapp` - Contains the pages comprising the Prefab and any resources imported
 
 
 ## See Also
