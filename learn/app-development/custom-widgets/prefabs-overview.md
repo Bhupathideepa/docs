@@ -10,9 +10,9 @@ sidebar_label: "Prefabs Overview"
 
 In this document the following topics related to Prefabs are covered:
 
-- the [What](#prefabs-example), [Why](#prefab-benefits) and [How](#prefab-anatomy) of a Prefab,
+- The [What](#prefabs-example), [Why](#prefab-benefits) and [How](#prefab-anatomy) of a Prefab,
 - [various features](#prefab-features) of a Prefab,
-- using Prefabs in your application by [publishing](#publishing-prefabs) and [importing](#importing-prefabs), and
+- Using Prefabs in your application by [publishing](#publishing-prefabs) and [importing](#importing-prefabs), and
 - [structure](#files-prefabs) of the Prefab code.
 
 ## Understanding Prefabs - An Example
@@ -29,11 +29,11 @@ This Prefab can be made to tightly integrate with specific APIs as shown below. 
 
 Prefabs make API integration a lot easier. You can
 
-1. integrate with REST API by importing API as a Service
-2. secure the transaction via the built-in OAuth 2.0 handshake without the need to write additional code
-3. manipulate the JSON responses by binding them to UI elements or widgets
-4. configure input parameters through Prefab settings
-5. expose data output and events for client-side integration
+1. Integrate with REST API by importing API as a Service.
+2. Secure the transaction via the built-in OAuth 2.0 handshake without the need to write additional code.
+3. Manipulate the JSON responses by binding them to UI elements or widgets.
+4. Configure input parameters through Prefab settings.
+5. Expose data output and events for client-side integration.
 
 [![](/learn/assets/prefab_api.png)](/learn/assets/prefab_api.png)
 
@@ -57,9 +57,9 @@ Prefabs leverage all the features available to a WaveMaker app, completely encap
 
 Prefabs can be applied in many situations, Broadly, they fall into following categories:
 
-1. **as widget extensions**: they can be built on top of 3rd party JS libraries and extend these libraries' functionality; [![prefab_widget](/learn/assets/prefab_widget.png)](/learn/assets/prefab_widget.png)
-2. **as API integrated components**: WaveMaker UI components can be made to interact with the Prefab APIs to customize the Prefab behavior; [![prefab_apicomp](/learn/assets/prefab_apicomp.png)](/learn/assets/prefab_apicomp.png)
-3. **as Backend service extensions**: reusable backend services can be built by leveraging 3rd party Java libraries. [![prefab_backent](/learn/assets/prefab_backent.png)](/learn/assets/prefab_backent.png)
+1. **Widget extensions**: They can be built on top of 3rd party JS libraries and extend these libraries' functionality; [![prefab_widget](/learn/assets/prefab_widget.png)](/learn/assets/prefab_widget.png)
+2. **API integrated components**: WaveMaker UI components can be made to interact with the Prefab APIs to customize the Prefab behavior; [![prefab_apicomp](/learn/assets/prefab_apicomp.png)](/learn/assets/prefab_apicomp.png)
+3. **Backend service extensions**:Reusable backend services can be built by leveraging 3rd party Java libraries. [![prefab_backent](/learn/assets/prefab_backent.png)](/learn/assets/prefab_backent.png)
 
 ## Prefab Features
 
@@ -95,7 +95,7 @@ Once you have created a Prefab, it needs to be published in order for the apps t
 
 ![](/learn/assets/artifact-sharing/artifacts-access.png)
 
-:::note
+:::Note :
 
 1. All Published Prefabs will be available under Prefabs, without needing to Import. Just click the refresh icon if you don't find the Prefab.
 2. To incorporate any changes made to an already imported prefab, it needs to be re-imported to an updated version of the project. Use the refresh icon for the same.
@@ -107,7 +107,7 @@ Once you have created a Prefab, it needs to be published in order for the apps t
 
 When a prefab is imported into a project, it places the prefab content into the folder: `src/main/webapp/WEB-INF/prefabs/{prefab-name}.` For each Prefab imported a separate folder is created, with the same name as that of the Prefab.
 
-:::note
+:::Note :
 Deleting this folder will delete the Prefab from the project.
 :::
 
