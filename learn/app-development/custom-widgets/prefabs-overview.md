@@ -10,18 +10,18 @@ sidebar_label: "Prefabs Overview"
 
 In this document the following topics related to Prefabs are covered:
 
-- The [What](#prefabs-example), [Why](#prefab-benefits) and [How](#prefab-anatomy) of a Prefab,
-- [various features](#prefab-features) of a Prefab,
+- The [What](#prefabs-example) , [Why],(#prefab-benefits) and [How](#prefab-anatomy) of a Prefab,
+- [Various features](#prefab-features) of a Prefab,
 - Using Prefabs in your application by [publishing](#publishing-prefabs) and [importing](#importing-prefabs), and
-- [structure](#files-prefabs) of the Prefab code.
+- The [Structure](#files-prefabs) of the Prefab code.
 
 ## Understanding Prefabs - An Example
 
-The following example is a document collaboration use case, where multiple users can annotate, comment and collaborate changes to a document. A Prefab can be built which shows all comments made on the document, retrieving them from an API. Prefab can be associated with the context of the document and organization/user to which the document is associated. Within this app or other apps wherever file comments are shown, this prefab could be simply reused.
+The following example is a document collaboration use case, where multiple users can annotate, comment and collaborate changes to a document. A Prefab can be built to show all comments made on the document, retrieving them from an API. Prefab can be associated with the context of the document and the organization/user to which the document is associated. Within this app or other apps wherever file comments are shown, this prefab could be simply reused.
 
 [![](/learn/assets/prefab_ex1.png)](/learn/assets/prefab_ex1.png)
 
-This Prefab can be made to tightly integrate with specific APIs as shown below. Prefab parameters can be defined to externalize configurations such as email, organization account, etc. to carry the content.
+This Prefab can be designed to tightly integrate with specific APIs as shown below. Prefab parameters can be defined to externalize configurations such as email, organization account, etc., to carry the content.
 
 [![prefab_ex2](/learn/assets/prefab_ex2.png)](/learn/assets/prefab_ex2.png)
 
@@ -55,7 +55,7 @@ Prefabs leverage all the features available to a WaveMaker app, completely encap
 
 ## Prefab Types
 
-Prefabs can be applied in many situations, Broadly, they fall into following categories:
+Prefabs can be applied in many situations.Broadly, they fall into the following categories:
 
 1. **Widget extensions**: They can be built on top of 3rd party JS libraries and extend these libraries' functionality; [![prefab_widget](/learn/assets/prefab_widget.png)](/learn/assets/prefab_widget.png)
 2. **API integrated components**: WaveMaker UI components can be made to interact with the Prefab APIs to customize the Prefab behavior; [![prefab_apicomp](/learn/assets/prefab_apicomp.png)](/learn/assets/prefab_apicomp.png)
@@ -65,9 +65,9 @@ Prefabs can be applied in many situations, Broadly, they fall into following ca
 
 Prefabs, like any widget, have the following features that can be set:
 
-1. **Properties**: If a Prefab exposes properties, you can set them using the Properties Panel. Depending upon the complexity of the Prefab, you may need to integrate the Prefab into your page using code.
-2. **Events**: There are two default events which can be handled - on Load and on Destroy. These events get triggered when the Prefab is loaded or removed, respectively, from the page containing the Prefab. Any other events that have been defined by the Prefab developer will also be listed and these can be handled by the user.
-3. **Methods**: Any methods that have been written and exposed by the Prefab developer will be available for invocation by binding them to an event of any widget.
+1. **Properties**: If a Prefab exposes properties, you can set them using the Properties Panel. Depending upon the complexity of the Prefab, you may need to            integrate the Prefab into your page using code.
+2. **Events**: There are two default events which can be handled - on Load and on Destroy. These events get triggered when the Prefab is loaded or removed,             respectively, from the page containing the Prefab. Any other events that have been defined by the Prefab developer will also be listed and these can be            handled by the user.
+3. **Methods**: Any methods that have been written and exposed by the Prefab developer will be available for invocation by binding them to an event of any              widget.
 
 [Know more about Prefab settings](/learn/app-development/custom-widgets/creating-prefabs/#prefab-settings).
 
