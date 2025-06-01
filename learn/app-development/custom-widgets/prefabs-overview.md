@@ -27,7 +27,7 @@ This Prefab can be designed to tightly integrate with specific APIs as shown bel
 
 ## Prefabs & API Integration
 
-Prefabs make API integration a lot easier. You can
+Prefabs make API integration a lot easier. You can:
 
 1. Integrate with REST API by importing API as a Service.
 2. Secure the transaction via the built-in OAuth 2.0 handshake without the need to write additional code.
@@ -81,18 +81,19 @@ Once you have created a Prefab, it needs to be published in order for the apps t
 
 ## Importing Prefabs
 
-1. To use a prefab for the first time, you should import the Prefab into your app. To import, click the **+** from the **Prefabs** section.
+1. To use a prefab for the first time, you should import the Prefab into your app.
+2. To import, click the **+** from the **Prefabs** section.
 
     ![prefabs import](/learn/assets/prefab-import.png)
 
-2. Upload the `.zip` file.
+3. Upload the `.zip` file.
 
     ![upload zip file](/learn/assets/prefab-zip-import.png)
 
-3. Once imported, you can find the prefab in the **Prefabs** section of the **Pages Resources**. These prefabs are grouped into categories like Basic, Media, Location, and more, as defined in the properties of the Prefab at the time of creation.
-4. You can use prefabs in any of your projects by simply dragging and dropping them from the  **Prefabs** section to your page like any other widget.
+4. Once imported, you can find the prefab in the **Prefabs** section of the **Pages Resources**. These prefabs are grouped into categories like Basic, Media, Location, and more, as defined in the properties of the Prefab at the time of creation.
+5. You can use prefabs in any of your projects by simply dragging and dropping them from the  **Prefabs** section to your page like any other widget.
 Once embedded into the page, all the functionality of the prefab becomes a part of that page.
-5. You can find the list of available Prefabs from the [Studio Artefacts](/learn/assets/artefacts.png) page.
+6. You can find the list of available Prefabs from the [Studio Artefacts](/learn/assets/artefacts.png) page.
 
 ![](/learn/assets/artifact-sharing/artifacts-access.png)
 
